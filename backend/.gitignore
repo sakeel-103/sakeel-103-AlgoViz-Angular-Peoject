@@ -1,0 +1,96 @@
+# ========== CRITICAL SECURITY FILES ==========
+.env*
+!.env.example
+config/*.json
+*.key
+*.pem
+*.crt
+*.cert
+*.pub
+*credentials*
+*secrets*
+*config.local*
+jwt-secret.txt
+session-secret.txt
+firebase*.json
+serviceAccount.json
+
+# ========== DATABASE FILES ==========
+*.db
+*.sqlite
+*.dump
+mongod.log
+redis.conf
+database/backups/
+
+# ========== SERVER-SIDE CACHE/LOGS ==========
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.pid
+*.seed
+*.pid.lock
+
+# ========== RUNTIME FILES ==========
+node_modules/
+dist/
+build/
+.temp/
+.cache/
+.serverless/
+.awcache/
+.parcel-cache/
+
+# ========== IDE/SYSTEM FILES ==========
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ========== TESTING/COVERAGE ==========
+/coverage
+/test-results.xml
+/__pycache__/
+
+# ========== ADD THESE NEW PATTERNS ==========
+# Common secret file patterns
+*_secret
+*_token
+*_password
+*_api_key
+*_private_key
+connectionstrings.*
+appsettings.*.json
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
