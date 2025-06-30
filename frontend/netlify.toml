@@ -1,3 +1,4 @@
 [build]
+  base = "frontend"
   command = "npm run build"
-  publish = "dist/your-angular-project-folder"
+  publish = "dist/eccom-prj"
